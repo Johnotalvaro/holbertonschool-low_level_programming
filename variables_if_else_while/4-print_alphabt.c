@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main -Alphabet except q and e
+ * main - Alphabet except q and e
  *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
