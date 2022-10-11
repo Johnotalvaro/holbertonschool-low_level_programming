@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Print Alphabet lower and upper
  *
@@ -7,9 +8,9 @@
 int main(void)
 {
 	char i;
-	for (ch = 'a'; ch <= 'z'; i++)
+	for (i= 'a'; i <= 'z'; i++)
 		putchar(i);
-	for (ch = 'A'; ch <= 'Z'; i++)
+	for (i = 'A'; i <= 'Z'; i++)
 		putchar(i);
 	putchar('\n');
 	return (0);
