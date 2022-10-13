@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -25,7 +26,7 @@ void print_to_98(int n)
 		{
 			if (b != 98)
 				printf("%d, ", b);
-			else if (j == 98)
+			else if (b == 98)
 				printf("%d\n", b);
 		}
 	}
